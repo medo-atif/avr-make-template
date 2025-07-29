@@ -31,6 +31,12 @@ In VS Code terminal or PowerShell:
 make
 ```
 
+## 🔄 Clean the Build
+```sh
+make clean
+```
+This removes all .o, .d, .elf, and .hex files.
+
 ## 💡 Notes
 You can add more .c files anywhere inside src/
 
@@ -38,8 +44,3 @@ No need to edit the Makefile
 
 It automatically recompiles files if a header file changes
 
-## 🔄 Clean the Build
-
-> make clean
-
-This removes all .o, .d, .elf, and .hex files.
