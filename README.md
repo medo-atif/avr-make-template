@@ -33,6 +33,7 @@ It automatically compiles all `.c` files (inside src).
 > Create a .vscode folder in the project root and move c_cpp_properties.json into it.
 
 > Move MakeFile to project root
+
 ---
 ### 🛠 Build the Project
 
@@ -41,6 +42,7 @@ In VS Code terminal or PowerShell:
 ```sh
 make
 ```
+
 ---
 ### 🔄 Clean the Build
 ```sh
