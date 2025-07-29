@@ -49,6 +49,7 @@ make
 make clean
 ```
 This removes all .o, .d, .elf, and .hex files.
+
 ---
 ### 💡 Notes
 You can add more .c files anywhere inside src/
