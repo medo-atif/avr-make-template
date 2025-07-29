@@ -22,3 +22,10 @@ It automatically compiles all `.c` files (inside src).
 ├── main.elf ← compiled ELF file
 
 ├── main.hex ← hex file for flashing
+
+##💡 Notes
+You can add more .c or .h files anywhere inside src/
+
+No need to edit the Makefile
+
+It automatically recompiles files if a header file changes
