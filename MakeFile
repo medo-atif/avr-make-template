@@ -2,7 +2,7 @@ MCU = atmega32
 F_CPU = 8000000UL
 CC = avr-gcc
 OBJCOPY = avr-objcopy
-CFLAGS = -mmcu=$(MCU) -DF_CPU=$(F_CPU) -Os -I.
+CFLAGS = -mmcu=$(MCU) -DF_CPU=$(F_CPU) -Os -I. -Wall 
 DEPFLAGS = -MMD -MP
 
 SRC_DIR = src
