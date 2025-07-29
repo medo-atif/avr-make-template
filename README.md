@@ -23,7 +23,7 @@ It automatically compiles all `.c` files (inside src).
 
 ├── main.hex ← hex file for flashing
 
-## 🛠 Build the Project
+### 🛠 Build the Project
 
 In VS Code terminal or PowerShell:
 
@@ -31,13 +31,13 @@ In VS Code terminal or PowerShell:
 make
 ```
 
-## 🔄 Clean the Build
+### 🔄 Clean the Build
 ```sh
 make clean
 ```
 This removes all .o, .d, .elf, and .hex files.
 
-## 💡 Notes
+### 💡 Notes
 You can add more .c files anywhere inside src/
 
 No need to edit the Makefile
