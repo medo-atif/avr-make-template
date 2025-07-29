@@ -6,11 +6,19 @@ It automatically compiles all `.c` files.
 
 ## 📁 Folder Structure
 ├── Makefile
+
 ├── src
+
 ├── inc
+
 │ ├── main.c
+
 │ ├── MCAL
+
 │ └── HAL
+
 ├── build ← created automatically during build
+
 ├── main.elf ← compiled ELF file
+
 ├── main.hex ← hex file for flashing
