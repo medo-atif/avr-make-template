@@ -31,6 +31,7 @@ It automatically compiles all `.c` files (inside src).
 ### ⚙️ VS Code Setup
 
 > Create a .vscode folder in the project root and move c_cpp_properties.json into it.
+> Move MakeFile to project root
 ---
 ### 🛠 Build the Project
 
