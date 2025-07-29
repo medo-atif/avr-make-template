@@ -1,4 +1,4 @@
-# AVR Project Template (for VS Code)
+# AVR(ATmega32) Project Template (for VS Code)
 
 This is a basic AVR project setup using `make` and `avr-gcc`, designed for use with **Visual Studio Code** on Windows.  
 It automatically compiles all `.c` files (inside src).
