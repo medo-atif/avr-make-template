@@ -4,7 +4,7 @@ This is a basic AVR project setup using `make` and `avr-gcc`, designed for use w
 It automatically compiles all `.c` files (inside src).
 -----
 
-## 📁 Folder Structure
+#### 📁 Folder Structure
 ├── Makefile
 
 ├── src
