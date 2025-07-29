@@ -1,6 +1,16 @@
-# AVR Project Template with Recursive Makefile
+# AVR Project Template (for VS Code)
 
-This project is a clean and scalable AVR development template using `avr-gcc`, `make`, and a structured folder layout. It supports automatic building of all `.c` source files in subdirectories, as well as dependency tracking for `.h` header files.
+This is a basic AVR project setup using `make` and `avr-gcc`, designed for use with **Visual Studio Code** on Windows.  
+It automatically compiles all `.c` files.
+---
 
 ## 📁 Folder Structure
-
+├── Makefile
+├── src/
+├── inc/
+│ ├── main.c
+│ ├── MCAL/
+│ └── HAL/
+├── build/ ← created automatically during build
+├── main.elf ← compiled ELF file
+├── main.hex ← hex file for flashing
