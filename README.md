@@ -2,7 +2,7 @@
 
 This is a basic AVR project setup using `make` and `avr-gcc`, designed for use with **Visual Studio Code** on Windows.  
 It automatically compiles all `.c` files (inside src).
----
+-----
 
 ## 📁 Folder Structure
 ├── Makefile
