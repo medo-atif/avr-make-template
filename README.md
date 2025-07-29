@@ -23,7 +23,7 @@ It automatically compiles all `.c` files (inside src).
 
 ├── main.hex ← hex file for flashing
 
-##💡 Notes
+## 💡 Notes
 You can add more .c or .h files anywhere inside src/
 
 No need to edit the Makefile
