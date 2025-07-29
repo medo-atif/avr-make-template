@@ -23,6 +23,10 @@ It automatically compiles all `.c` files (inside src).
 
 ├── main.hex ← hex file for flashing
 
+## ⚙️ VS Code Setup
+
+> Create a .vscode folder in the project root and move c_cpp_properties.json into it.
+
 ### 🛠 Build the Project
 
 In VS Code terminal or PowerShell:
