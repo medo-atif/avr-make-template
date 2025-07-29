@@ -26,6 +26,7 @@ It automatically compiles all `.c` files (inside src).
 ├── main.elf ← compiled ELF file
 
 ├── main.hex ← hex file for flashing
+
 ---
 
 ### ⚙️ VS Code Setup
