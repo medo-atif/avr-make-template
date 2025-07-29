@@ -23,6 +23,14 @@ It automatically compiles all `.c` files (inside src).
 
 ├── main.hex ← hex file for flashing
 
+## 🛠 Build the Project
+
+In VS Code terminal or PowerShell:
+
+```sh
+make
+```
+
 ## 💡 Notes
 You can add more .c files anywhere inside src/
 
