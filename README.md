@@ -32,5 +32,6 @@ It automatically recompiles files if a header file changes
 
 ## 🔄 Clean the Build
 
->> make clean
+> make clean
+
 This removes all .o, .d, .elf, and .hex files.
