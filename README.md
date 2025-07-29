@@ -2,7 +2,7 @@
 
 This is a basic AVR project setup using `make` and `avr-gcc`, designed for use with **Visual Studio Code** on Windows.  
 It automatically compiles all `.c` files (inside src).
------
+---
 
 ### 📁 Folder Structure
 ├── Makefile
@@ -22,11 +22,12 @@ It automatically compiles all `.c` files (inside src).
 ├── main.elf ← compiled ELF file
 
 ├── main.hex ← hex file for flashing
+---
 
-## ⚙️ VS Code Setup
+### ⚙️ VS Code Setup
 
 > Create a .vscode folder in the project root and move c_cpp_properties.json into it.
-
+---
 ### 🛠 Build the Project
 
 In VS Code terminal or PowerShell:
@@ -34,13 +35,13 @@ In VS Code terminal or PowerShell:
 ```sh
 make
 ```
-
+---
 ### 🔄 Clean the Build
 ```sh
 make clean
 ```
 This removes all .o, .d, .elf, and .hex files.
-
+---
 ### 💡 Notes
 You can add more .c files anywhere inside src/
 
