@@ -6,6 +6,7 @@ It automatically compiles all `.c` files.
 
 ## 📁 Folder Structure
 ├── Makefile
+
 ├── src/
 ├── inc/
 │ ├── main.c
