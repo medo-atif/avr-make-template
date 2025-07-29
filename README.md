@@ -5,6 +5,10 @@ It automatically compiles all `.c` files (inside src).
 ---
 
 ### 📁 Folder Structure
+├── .vscode
+
+| ├── c_cpp_properties.json
+
 ├── Makefile
 
 ├── src
